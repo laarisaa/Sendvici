@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Bootstrap Theme Simply Me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 {
+    background-color: #004225; /* Green */
+    color: #ffffff;
+  }
+  .bg-2 {
+    background-color: #D3D04F; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 {
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 {
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">PRETRAŽIVAČ</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#pojam">HISTORIJA SENDVIČA</a></li>
+        <li><a href="#inicijative">EDWARD GIBBON</a></li>
+        <li><a href="#simulacije">VRSTA, SASTOJCI, CIJENA</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">SENDVIČI</h3>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMJAHkLqb1Y_HJwp7AQ-9DIPBC1qZTdW7E3w&usqp=CAU" style="display:inline" alt="Bird" width="350" height="350">
+ 
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">O SENDVIČIMA</h3>
+  <p>Sendvič je hrana načinjena od jedne ili dvije kriške hljeba sa jednim ili više slojeva namirnica. Hljeb se može i namazati puterom, senfom ili nečim drugim kako bi se pojačao okus i struktura. </p>
+  <a href="#" class="btn btn-default btn-lg">
+    <span class="glyphicon glyphicon-search"></span> Pretraži
+  </a>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+  
+  <div class="row" id="pojam">HISORIJA SENDVIČA
+      <p>Raniji oblici sendviča se pripisuju staroj židovskoj sagi "Hille the Elder", prema kojoj je upakirano meso janjetine i gorkih biljaka u hljebu.
+
+U srednjem vijeku, tanke kriške hrapavog i obično ustajalog hljeba, su korištene kao tanjiri. Nakon objeda, ostacima tog hljeba su hranili pse i prosjake ili ostavili za večeru. Takav hljeb je bio preteča "otvorenim" sendvičima. Direktan prethodnik engleskom sendviču se pojavljuje u 17. stoljeću u Nizozemskoj.</p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Italian_Sandwich.jpeg/250px-Italian_Sandwich.jpeg" style="width:50%; height: 50%" alt="Image">
+    </div>
+    <div id="inicijative"> EDWARD GIBBON
+      <p>Prvi pisani trag engleske riječi "sandwich" pojavljuje se u dnevniku Edwarda Gibbona u opisu "komadi hladnog mesa". Riječ je nastala prema John Montagu, 4th Earl of Sandwich, engleski aristokrat iz 18. stoljeća, iako nema direktnu poveznicu sa hranom. Priča se da je Lord Sandwich volio jesti takav oblik hrane tokom kartanja jer je mogao istovremeno raditi obje stvari - kartati i jesti, a da ne uprlja karte tijekom igre.
+</p>
+
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Edward_Gibbon_by_Henry_Walton_cleaned.jpg/220px-Edward_Gibbon_by_Henry_Walton_cleaned.jpg" style="width: 30%; heigth: 30%" alt="Image">
+    </div>
+    
+    <div id="simulacije"> SENDVIČI
+      
+<!-- Tablica -->
+    <table class="table table-bordered mt-4">
+        <thead>
+            <tr>
+                <th>Vrsta sendviča</th>
+                <th>Sastojci</th>
+                <th>Cijena</th>
+               
+               
+              
+               
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Piletina Caeser</td>
+                <td>Pileća prsa, zelena salata, parmezan, umak Caeser</td>
+                 <td>5KM</td>
+            </tr>
+            <tr>
+                <td>Veggie sendvič</td>
+                <td>Svježe povrće, sir, hummus, integran hljeb, avokado</td>
+                 <td>7KM</td>
+            </tr>
+            <tr>
+                <td>Tuna sendvič</td>
+                <td>Tunjevina, majoneza, luk, krastavac, zelena salata</td>
+                 <td>6.50KM</td>
+            </tr>
+        </tbody>
+    </table>
+
+      
+   
+
+<p> Larisa Babić II-5 </p>
+
+
+</body>
+</html>
